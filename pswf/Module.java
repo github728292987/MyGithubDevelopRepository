@@ -2,6 +2,7 @@ import java.io.Serializable;
 import java.util.List;
 
 // this is zhangsan !
+// this is lisi !
 public class Module implements Serializable {
 
     private static final long serialVersionUID = 2901703856123441317L;
