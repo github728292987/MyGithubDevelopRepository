@@ -1,20 +1,12 @@
 import java.io.Serializable;
 import java.util.List;
 
+// 李四删掉了一堆没用的注释
+// 然后又加了一堆没用的注释~~
 
-
-// develop分支加的注释 2018-11-03 23:10:43
-// develop分支加的注释 2018-11-03 23:10:43
-// develop分支加的注释 2018-11-03 23:10:43
-// develop分支加的注释 2018-11-03 23:10:43
-// develop分支加的注释 2018-11-03 23:10:43
-// develop分支加的注释 2018-11-03 23:10:43
-
-
-
-
-// this is zhangsan !
-// this is lisi !
+// ---------------------------------
+// ---------------------------------
+// ---------------------------------
 public class Module implements Serializable {
 
     private static final long serialVersionUID = 2901703856123441317L;
