@@ -1,32 +1,20 @@
 import java.io.Serializable;
 import java.util.List;
 
-// 李四删掉了一堆没用的注释
-// 然后又加了一堆没用的注释~~
-
-// ---------------------------------
-// ---------------------------------
-// ---------------------------------
-// 张三删掉了一堆没用的注释
 public class Module implements Serializable {
 
     private static final long serialVersionUID = 2901703856123441317L;
 
-    private Long id;// 主键
-    private String moduleCode;// 模块编号
-    private String moduleName;// 模块名称
-    private String moduleUrl;// 模块URL
-    private String moduleType;// 模块类型
-    private Long navigationId;// 导航id
-    private String descr;// 备注
+    private Long id;
+    private String moduleCode;
+    private String moduleName;
+    private String moduleUrl;
+    private String moduleType;
+    private Long navigationId;
+    private String descr;
 
     public Module() {
         super();
-    }
-
-    public Module(String moduleCode, String moduleName) {
-        this.moduleCode = moduleCode;
-        this.moduleName = moduleName;
     }
 
     public Long getId() {
