@@ -1,13 +1,7 @@
 import java.io.Serializable;
 import java.util.List;
 
-// 李四删掉了一堆没用的注释
-// 然后又加了一堆没用的注释~~
-
-// ---------------------------------
-// ---------------------------------
-// ---------------------------------
-// 张三删掉了一堆没用的注释
+// 李四删掉了一堆没用的注释 2018-11-05 13:10:20
 public class Module implements Serializable {
 
     private static final long serialVersionUID = 2901703856123441317L;
@@ -21,6 +15,10 @@ public class Module implements Serializable {
     private String descr;// 备注
 
     public Module() {
+        super();
+    }
+
+    public Module(String code) {
         super();
     }
 
